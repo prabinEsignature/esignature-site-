@@ -1,0 +1,1027 @@
+/* HEADER SECTION */
+[data-aos][data-aos][data-aos-duration="500"],
+body[data-aos-duration="500"] [data-aos] {
+  transition-duration: 0.3s;
+}
+
+/* CASE STUDY DETAIL PAGE */
+.overline {
+  color: #373737;
+}
+.name .subt1,
+.name .subt2 {
+  padding-right: 15px;
+}
+.m-50 {
+  margin: 0 50px;
+}
+
+.grid-container .box .interface__img-wrap img {
+  height: 100%;
+}
+
+.screen .gallery__item img.gallery__img {
+  width: 90%;
+  height: auto;
+}
+
+.branding__box h2 {
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+.branding .branding__title.h2 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.branding__icon-img img {
+  min-width: 130px;
+}
+
+.branding__container .color-box .box {
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+.navigate-text.h2 {
+  font-size: 32px;
+}
+
+.navigate__button .e-button a {
+  font-size: 14px;
+}
+
+.dbd {
+  padding-bottom: 18rem;
+}
+
+.interface .grid-container .box .overline {
+  margin-top: 30px;
+}
+
+.branding,
+.branding__container {
+  padding: 3rem 0;
+  margin: 0 100px;
+}
+
+.branding__container .col-md-5 {
+  padding: 0;
+}
+
+/* Case Study detail Page */
+
+/* Services Page */
+
+.img-service-header img {
+  width: 100%;
+  height: auto;
+}
+
+.about-head .header__right-bg {
+  transform: scale(1.18) translateX(15%) translateY(-35%) !important;
+}
+
+.services-table {
+  background: #f0f0f0;
+}
+
+.services .e-box {
+  border: 0.5px solid rgba(0, 0, 0, 0.1) !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  transition: 0.5s ease;
+}
+
+.services-table .card {
+  background: transparent;
+  padding: 15px;
+  border-top: none !important;
+  border-bottom: none !important;
+  /* max-height: 400px; */
+  display: flex;
+  justify-content: center;
+}
+
+.services-table .card .card-text-header {
+  font-size: 24px;
+  font-weight: 500;
+  color: #707070;
+  padding: 15px 0;
+}
+
+.services-table .card .card-content {
+  font-size: 18px;
+  font-weight: 300;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.services-table .card .top-blue {
+  border-top: 3px solid #2258e1;
+  width: 30px;
+  margin: 0 auto;
+  margin-top: 150px;
+  transition: 0.3s ease;
+}
+
+.services-table .card:hover .card-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.services-table .card:hover .top-blue {
+  margin-top: 0;
+}
+
+.services-table .card:hover .card-text-header {
+  color: #000;
+}
+
+.book {
+  color: #fff;
+  background: url("../images/service/book.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 48px 0;
+}
+
+.btn-blue {
+  background-color: #2258e1;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  color: #fff !important;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.book .body1 p {
+  color: #fff !important;
+  padding: 15px 0;
+}
+
+.book .btn-blue {
+  margin: 30px auto;
+}
+
+.service-list ul li {
+  display: flex;
+  font-size: 18px;
+  color: #707070;
+  line-height: 32px;
+  font-weight: 300;
+  margin: 2px 0;
+}
+
+.service-list {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.service-list .list-item i {
+  margin-top: 7px;
+}
+
+.list-service h2 {
+  font-size: 36px;
+}
+
+.list-service .body1 {
+  padding: 16px 0;
+}
+.list-section.list-service .h2.about-header {
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+.list-img {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.img-caption p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  padding: 14px 0;
+  color: #2c2c2c;
+}
+
+.benefits {
+  text-align: center;
+  margin: 3rem 0;
+  margin-bottom: 0;
+}
+
+.benefits .benefits-inner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.benefits .icon,
+.benefits .benefit-header,
+.benefits .benefit-content {
+  padding: 15px 0;
+}
+
+.benefits .benefit-header {
+  color: #2c2c2c;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.benefits .benefit-content {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.faq-service .c-open__list-title p[class^="subt"],
+.faq-service .c-open__list-title p[class*="subt"] {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 575.98px) {
+  .faq-service .c-open__list-title p[class^="subt"],
+  .faq-service .c-open__list-title p[class*="subt"] {
+    font-size: 16px;
+  }
+}
+
+.faq-service .caption.body1 {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 8px 0;
+}
+
+.faq-service.c-open .openP {
+  padding: 20px 0;
+}
+
+.yellow-hr {
+  width: 100%;
+  height: 2px;
+  border-top: 1px solid #fbc962;
+  margin: 20px 0;
+}
+
+.service-list-bold .list-item {
+  font-weight: 500;
+}
+
+.free-list {
+  padding: 50px;
+}
+
+/* Service 3 */
+
+.img-shadow {
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.25);
+}
+
+.benefits-marketing {
+  margin: 0;
+}
+
+.benefits-marketing .benefit-header {
+  font-size: 18px;
+}
+
+.benefits .benefits-inner {
+  padding-top: 0;
+}
+
+.benefits.benefits-marketing .icon,
+.benefits.benefits-marketing .benefit-header,
+.benefits.benefits-marketing .benefit-content {
+  padding: 10px 0;
+}
+
+.engage-customers {
+  background-color: #ecf1fc;
+}
+
+.engage-customers .container {
+  min-width: 80vw;
+}
+
+.engage-customers .container .containersubs-content {
+  padding: 0 40px;
+}
+
+.list-service .details .details-title {
+  font-size: 28px;
+  margin-top: 6px !important;
+}
+.list-section__article .number-number {
+  font-size: 32px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-service .details .details-title {
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  color: #585858 !important;
+}
+.list-section.list-service .list-section__content {
+  padding-left: 4rem !important;
+}
+.approach {
+  padding: 5rem 0;
+}
+
+.listing-approach {
+  display: flex;
+  justify-content: space-between;
+}
+
+.approach-top-right {
+  padding: 0 60px;
+}
+
+/* Service 3 */
+
+/* Service 4 */
+
+.service4-header {
+  background: rgba(34, 88, 225, 0.1);
+  margin-top: 0;
+  padding-top: 7rem;
+}
+
+.chart {
+  padding: 5rem 0;
+}
+
+.technology-stack {
+  padding: 5rem 0;
+  background: #f0f0f0;
+  padding-bottom: 0;
+}
+
+.stack-header-main {
+  margin-bottom: 3rem;
+}
+
+.stack-row {
+  margin: 0;
+}
+
+.stack-icons-left {
+  margin-left: auto;
+}
+
+.stack-icons-right {
+  margin-right: auto;
+}
+
+.stack-header p {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  padding: 15px 24px;
+}
+
+.stack-sub-header p {
+  font-size: 18px;
+  color: #2258e1;
+  font-weight: 500;
+  text-align: left;
+  padding: 15px 24px;
+}
+
+.stack-row .headers {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-row .stacks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stacks .benefits-inner {
+  padding: 20px 24px;
+}
+
+.stack-img {
+  padding: 0;
+}
+
+.stack-img img {
+  margin: 0;
+}
+
+.stacks .icon {
+  display: flex;
+  width: 63px;
+  height: 63px;
+  background: #dbe1ef;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.platforms .icon {
+  padding: 0;
+}
+
+.platforms .benefit-header {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.stacks .icon img {
+  margin: auto;
+}
+/* Service 4 */
+
+.service-list li::before {
+  font-family: "Font Awesome\ 5 Free";
+  content: "\f058";
+  color: #fbc962;
+  margin-right: 15px;
+}
+.service-list ul li a {
+  color: #2258e1 !important;
+}
+.service-list ul li a:hover {
+  text-decoration: underline;
+}
+
+span.down {
+  font-weight: bold;
+}
+
+.news-detail-white-header .text-yellow {
+  color: #fbc962;
+}
+
+.list-section .why-work {
+}
+
+.list-section .why-work img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Services Page */
+@media screen and (max-width: 1540px) {
+  .menu-page__company-ul {
+    max-width: 80%;
+  }
+
+  .header__right-bg,
+  .header__right-bg .aos-init.aos-animate {
+    transform: scale(1.26) translateX(25%) translateY(-6%) !important;
+  }
+
+  .header__right-bg {
+    height: 93%;
+  }
+
+  /* About Us Page */
+  .about-head .image-right img {
+    height: 600px !important;
+  }
+
+  .process-about {
+    padding: 0;
+  }
+
+  .sub-header-about-only {
+    padding: 0;
+    padding-bottom: 3rem;
+  }
+
+  /* About Us Page */
+
+  /* NewsRoom Page */
+  .grid-container .topics-box__content {
+    padding: 15px;
+  }
+
+  .top-stories__header h3 {
+    font-size: 31px !important;
+  }
+
+  /* Business page */
+
+  .business-header .content-wrapper {
+    padding: 50px 30px !important;
+  }
+
+  .business-header h1.h2.about-header {
+    font-size: 32px;
+  }
+
+  .business-header .header__right-bg,
+  .business-header .header__right-bg .aos-init.aos-animate {
+    transform: scale(1.16) translateX(-45%) translateY(-18%) !important;
+  }
+
+  .business-header .header-small-right {
+    transform: translateX(80%) !important;
+  }
+
+  .stacks .benefits-inner {
+    padding: 20px 15px;
+  }
+
+  .stack-sub-header p {
+    padding: 5px 15px;
+  }
+
+  .stack-header p {
+    padding: 5px 15px;
+  }
+
+  /* Business Page */
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1540px) {
+  .header__right-bg,
+  .header__right-bg .aos-init.aos-animate {
+    transform: scale(1.26) translateX(25%) translateY(-6%) !important;
+  }
+
+  .header__right-bg {
+    height: 82%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__right-bg {
+    display: none !important;
+  }
+
+  /* Home Page */
+  ul.d-flex.justify-content-around.justify-content-md-between.flex-wrap li img {
+    width: 100px !important;
+  }
+
+  .our-works {
+    padding: 30px 0;
+    margin-top: 0 !important;
+  }
+
+  .services {
+    margin: 30px 0;
+  }
+
+  .our-works .more-work {
+    padding-top: 30px !important;
+    padding-bottom: 0;
+  }
+
+  .header-description {
+    padding: 0;
+  }
+
+  .header .e-header-text__content p {
+    font-size: 18px !important;
+    line-height: 32px;
+  }
+
+  .e-header-text__content h1 {
+    font-size: 22px !important;
+    line-height: 32px;
+  }
+
+  .header-top-home {
+    flex-direction: column-reverse;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0;
+  }
+
+  .header .e-header-text__content {
+    text-align: center;
+  }
+
+  .header-description__left {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .humbergur .line1 {
+    top: 7px;
+    margin-left: 0px;
+  }
+
+  .humbergur .line2 {
+    top: 14px;
+    width: 19px;
+    margin-left: 7px;
+  }
+
+  .humbergur .line3 {
+    top: 21px;
+    margin-left: 0px;
+  }
+
+  .hero-img .carousel-item img {
+    padding: 15px;
+  }
+  /* Home Page */
+
+  .about-head .about-head-top {
+    padding: 0;
+  }
+
+  .e-head .img-wrapper .about-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .e-head.about-head .header__right-bg {
+    display: none;
+  }
+
+  .team {
+    padding: 2rem 0;
+  }
+
+  .process .img-wrap img {
+    height: auto;
+  }
+
+  .team-member .profile img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .team-member .name p {
+    font-size: 18px;
+  }
+
+  .team-member .name,
+  .team-member .profile {
+    padding: 5px 0;
+  }
+
+  .team-member p,
+  .team-member .email p {
+    font-size: 13px;
+  }
+
+  .team .team-section-title h3 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .team .carousel-indicators {
+    bottom: -30px;
+  }
+
+  /* Career Page */
+  .caption.body1 {
+    font-size: 15px !important;
+    line-height: 20px;
+  }
+
+  .caption.body1 ul li {
+    font-size: 13px !important;
+  }
+
+  /* Business Page */
+  .business-header .content-wrapper {
+    padding: 30px 0 !important;
+  }
+
+  .business-header h1.h2.about-header {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .business-top-image img {
+    padding: 15px 0;
+  }
+
+  .c-header__details.business-header {
+    padding-bottom: 30px;
+  }
+
+  .business-content {
+    padding: 30px 0;
+  }
+
+  .business-content .row {
+    padding: 0;
+  }
+
+  .no-pad-mob {
+    padding-top: 0 !important;
+  }
+
+  .business-content img {
+    padding: 30px 0;
+  }
+
+  .row-reverse-mobile {
+    flex-direction: column-reverse;
+  }
+  /* Business Page */
+
+  .chart,
+  .technology-stack,
+  .book,
+  .services-table,
+  .testimonial {
+    padding: 2rem 0;
+  }
+
+  .c-open__list-title p.subt1 {
+    line-height: 28px;
+  }
+
+  .stack-row-rev {
+    flex-direction: column-reverse;
+  }
+
+  .stack-header-main {
+    padding: 15px;
+    margin-bottom: 2rem;
+  }
+
+  .book .btn-blue {
+    margin: 15px auto;
+  }
+
+  .menu-page__list-item__link {
+    font-size: 28px;
+  }
+
+  .menu-page__company-details-item__link {
+    font-size: 18px;
+  }
+
+  .menu-page__company-details-item .menu_service-item {
+    margin: 15px 0;
+  }
+
+  .e-head {
+    margin-top: 6rem;
+    padding-bottom: 0;
+  }
+
+  .services-table .card {
+    min-height: 280px;
+    height: 100%;
+  }
+
+  .services-table .card .card-content {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .services-table .card .card-text-header {
+    color: #000;
+  }
+  .services-table .card .top-blue {
+    margin-top: 0;
+  }
+  .list-section__article .details {
+    padding-left: 20px;
+  }
+  .menu-page .navbar-brand img {
+    max-width: 100% !important;
+  }
+
+  .menu-page .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .e-overlay__content .menu-page__navbar .navbar-brand {
+    margin-right: 0;
+  }
+
+  .e-talk p {
+    font-size: 14px;
+  }
+
+  .services-table .no-gutters {
+    margin-bottom: 0 !important;
+  }
+
+  .e-talk img {
+    margin: 0 10px;
+    margin-right: 15px;
+    height: 10px;
+  }
+
+  .benefits .icon,
+  .benefits .benefit-header,
+  .benefits .benefit-content {
+    padding: 5px 0;
+  }
+
+  .benefits .benefit-header {
+    font-size: 22px;
+  }
+
+  .stacks .benefits-inner {
+    padding: 30px 40px;
+  }
+
+  .stacks .benefits-inner {
+    padding: 20px 5px;
+  }
+
+  s .top-stories .card-body {
+    padding: 15px;
+  }
+
+  .grid-container .box.topics-box {
+    width: 100%;
+    padding: 0;
+  }
+
+  .grid-mobile {
+    margin: 15px 0;
+  }
+
+  .grid-container .box.g-box.hover.box__active.text-center.col-md-12 {
+    margin: 15px 0;
+  }
+  .branding,
+  .branding__container {
+    margin: 0;
+  }
+
+  .branding__box {
+    overflow: scroll;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery__item {
+    width: 45%;
+  }
+
+  h1.h2.who-heads {
+    font-size: 28px !important;
+  }
+
+  .who-short p {
+    padding: 0 !important;
+  }
+
+  section.who-content,
+  .whoweare-head {
+    padding-top: 2rem !important;
+  }
+
+  .team-ban img {
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+  }
+
+  .success-quote {
+    margin: 0 !important;
+  }
+
+  .tiers-imgs {
+    margin-top: -148px !important;
+  }
+
+  .tiers-imgs img {
+    height: auto !important;
+  }
+
+  .tier-desc {
+    margin-top: 50px !important;
+  }
+
+  .menu-page .humbergur,
+  .menu-page .humbergur.open .button-inner__div {
+    left: 10px !important;
+  }
+
+  .agile-img {
+    padding: 30px !important;
+  }
+  section.prog-recycle {
+    margin-top: 30px !important;
+  }
+  section.scrum {
+    padding: 30px 0 !important;
+  }
+  .scrum .row:nth-child(2) img {
+    width: 100% !important;
+  }
+  p.dev-scru {
+    padding: 0 !important;
+  }
+  section.prog-recycle img {
+    width: 100% !important;
+  }
+  section.scrum img {
+    width: 100% !important;
+  }
+  section.develop img {
+    width: 100% !important;
+  }
+  h1.h2.processs.c-header__title.pb-5.mb-2 {
+    font-size: 24px !important;
+  }
+  .c-header__content {
+    padding: 30px 0 !important;
+  }
+  p.process-head {
+    font-size: 18px !important;
+  }
+  header.e-head.about-head.service4-header {
+    margin-top: 0;
+  }
+  .headers {
+    padding: 15px 0;
+  }
+  .benefit-header p {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .stack-header p {
+    font-size: 24px;
+  }
+  .m-50 {
+    margin: 0;
+  }
+  .process-content {
+    padding: 0;
+  }
+}
+
+/*@media (min-width: 2024px){*/
+/*   .e-display-none {*/
+/*    display: block;*/
+/*} */
+/*}*/
+
+@media screen and (max-width: 1024px) {
+  .header__right-bg {
+    display: block;
+    height: 48%;
+  }
+
+  .header-description__left {
+    padding: 30px;
+    margin: 0;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .header-description__left {
+    padding: 20px;
+  }
+}
+
+.menu-page__company-ul {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#menuAboutCollapseMobile,
+#menuAboutCollapseDesktop {
+  /* display: block !important; */
+}
+
+ul.menu-services.menu_service-item {
+  display: block !important;
+}
+
+.menu-page__contact-mail {
+  margin: 0;
+}
+
+.company-brochure:hover {
+  color: #2258e1;
+  text-decoration: underline;
+}
